@@ -33,14 +33,14 @@ This is a RESTful API built using Node.js and Express.js for managing an e-learn
 
 ## API Endpoints  
 ### Authentication  
-- `POST /auth/register` - Register a new user.  
-- `POST /auth/login` - Authenticate a user.  
+- `POST /api/users/signup` - Register a new user.  
+- `POST /api/users/login` - Authenticate a user.  
 
 ### Courses  
-- `GET /courses` - List all courses.  
-- `POST /courses` - Create a new course (Admin only).  
-- `PUT /courses/:id` - Update course details (Admin only).  
-- `DELETE /courses/:id` - Delete a course (Admin only).  
+- `GET /api/courses` - List all courses.  
+- `POST /api/courses` - Create a new course (Admin only).  
+- `PUT /api/courses/:id` - Update course details (Admin only).  
+- `DELETE /api/courses/:id` - Delete a course (Admin only).  
 
 ### Enrollment  
 - `POST /enrollments` - Enroll in a course.  
