@@ -13,7 +13,7 @@ This is a RESTful API built using Node.js and Express.js for managing an e-learn
 ## Installation  
 1. Clone the repository:  
    ```bash  
-   git clone [https://github.com/danielkeb/dkkls.git]
+   git clone https://github.com/danielkeb/dkkls.git
    cd dkkls 
    ```  
 2. Install dependencies:  
@@ -23,7 +23,7 @@ This is a RESTful API built using Node.js and Express.js for managing an e-learn
 3. Set up environment variables in a `.env` file:  
    ```plaintext  
    PORT=3000  
-   DATABASE_URL=mongodb://localhost:27017/e-learning  
+   DATABASE_URL=
    JWT_SECRET=your_secret_key  
    ```  
 4. Start the server:  
