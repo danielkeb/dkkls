@@ -13,8 +13,8 @@ This is a RESTful API built using Node.js and Express.js for managing an e-learn
 ## Installation  
 1. Clone the repository:  
    ```bash  
-   git clone https://github.com/your-repo/e-learning-platform-api.git  
-   cd e-learning-platform-api  
+   git clone [https://github.com/danielkeb/dkkls.git]
+   cd dkkls 
    ```  
 2. Install dependencies:  
    ```bash  
